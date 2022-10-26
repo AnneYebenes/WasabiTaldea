@@ -1,0 +1,105 @@
+/*Erosketa Datuak WIN10*/
+.EDoffice{
+    color: rgb(255, 255, 255);
+    width:auto ;
+    max-width: auto;
+    margin:0%;
+    margin-top:0%;
+    margin-bottom: 0%;
+    background-color: rgb(0, 0, 0)
+    
+    
+    
+}
+body{
+    text-align: center;
+    margin: 0%;
+}
+html{
+   background-color: rgb(31, 31, 31);
+}
+a{
+    color: rgb(64, 64, 232);
+    background-color: rgb(31, 31, 31);
+}
+label{
+    color: rgb(255, 255, 255);
+}
+form{
+    background-color: rgb(31, 31, 31);
+}
+div{
+    background-color: rgb(31, 31, 31);
+}
+.cuadrado {
+    width: 150px;         
+    height: 150px;              
+    border: 1px solid rgb(255, 255, 255); 
+    background-color: rgb(31, 31, 31);
+  }
+.Gmail{
+    color: rgb(255, 255, 255);
+    
+}
+header{
+        height: 50px;
+}  
+
+/*PaypalOFFICE2016*/
+.PPoffice{
+    color: rgb(255, 255, 255);
+    width:auto ;
+    max-width: auto;
+    margin: 0px;
+
+    background-color: rgb(0, 0, 0)
+    
+    
+}
+
+
+/*Txartela OFFICE2016*/
+.Txoffice{
+    color: rgb(255, 255, 255);
+    width:auto ;
+    max-width: auto;
+    margin: 0px;
+
+    background-color: rgb(0, 0, 0)
+}
+/*Erosketa Datuak WIN10*/
+.EDwin10{
+    color: rgb(255, 255, 255);
+    width:auto ;
+    max-width: auto;
+    margin: 0px;
+
+    background-color: rgb(0, 0, 0)
+}
+/*Paypal WIN10*/
+.PPwin10{
+    color: rgb(255, 255, 255);
+    width:auto ;
+    max-width: auto;
+    margin: 0px;
+
+    background-color: rgb(0, 0, 0)
+}
+
+/*Txartela WIN10*/
+.Txwin10{
+    color: rgb(255, 255, 255);
+    width:auto ;
+    max-width: auto;
+    margin: 0px;
+
+    background-color: rgb(0, 0, 0)
+}
+
+#algo{
+    background-color: black;
+    text-align: start;
+    color: aliceblue;
+}
+/*4.1 Lizentzia WIN10*/
+
