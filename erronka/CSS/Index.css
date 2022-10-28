@@ -25,11 +25,14 @@ img {
 	height: auto;
 }
 
-
 #main-header {
 	background: #333;
 	color: white;
 	height: 80px;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
 }	
 	#main-header a {
 		color: white;
@@ -43,14 +46,22 @@ img {
 	padding: 15px 0 0 20px;
 	text-decoration: none;
 }
+    #logo-foto {
+    width: 30px;
+    padding: 10px;
+    position:relative;
+    right: 292px;
+
+    }
 	#logo-header:hover {
 		color: #0b76a6;
 	}
 
 	#logo-header .site-name {
-		display: block;
+		display: inline-block;
 		font-weight: 700;
 		font-size: 1.2em;
+        top: 20px;
 	}
 
 	#logo-header .site-desc {
@@ -96,12 +107,16 @@ nav {
 	max-width: 800px;
 	margin: 20px auto;
 	box-shadow: 0 0 10px rgba(0,0,0,.1);
-    text-align: center;
 }
 
-	#main-content header,
+	#main-content header{
+        padding: 40px;
+        text-align: center;
+    }
 	#main-content .content {
 		padding: 40px;
+        text-align: center;
+        text-align: justify;
 	}
 
 
@@ -119,17 +134,6 @@ nav {
 	#main-footer a {
 		color: white;
 	}
-
-    #main-header {
-        background: #333;
-        color: white;
-        height: 80px;
-
-        width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-        left: 0; /* Posicionamos la cabecera al lado izquierdo */
-        top: 0; /* Posicionamos la cabecera pegada arriba */
-        position: fixed; /* Hacemos que la cabecera tenga una posición fija */
-    }
 
     /*Menu Desplegable hasiera*/
 
@@ -179,15 +183,14 @@ nav {
     }
 
     .barra:hover{
-        width: 70%;
-        height: 100%;
+        width: 20%;
+        height: 568px;
         background-color: rgba(0, 0, 0, 0.98)
     }
 
     .barra:hover h2{
         padding: 15px;
         font-size: 35px;
-
     }
 
     .barra:hover a{
