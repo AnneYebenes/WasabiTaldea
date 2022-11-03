@@ -1,0 +1,241 @@
+/*DENDA*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+h5 {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}	
+	#main-header a {
+		color: white;
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+    #logo-foto {
+    width: 30px;
+    padding: 10px;
+    position:relative;
+    right: 292px;
+
+    }
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+
+	#logo-header .site-name {
+		display: inline-block;
+		font-weight: 700;
+		font-size: 1.2em;
+        top: 20px;
+	}
+
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+
+
+#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+	#main-content header{
+        padding: 40px;
+        text-align: center;
+    }
+	#main-content .content {
+		padding: 40px;
+        text-align: center;
+        text-align: justify;
+	}
+
+    #main-footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+	#main-footer p {
+		margin: 0;
+	}
+
+	#main-footer a {
+		color: white;
+	}
+
+/*Menu Desplegable hasiera*/
+
+ /*dineinua aldatu*/
+.barra{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 5%;
+    height: 9%;
+    position: fixed;
+    transition: .4s all;
+    z-index: 1;
+}
+
+/*Diseinua aldatu ul*/
+.barra ul{
+    padding: 0px;
+    text-align: center;
+}
+
+/*Diseinua aldatu li*/
+.barra li{
+    transition: .3s all;
+}
+
+/*Diseinua aldatu a*/
+.barra a{
+    text-decoration: none;
+    list-style: none;
+    transition: .3s all;
+    font-size: 0px;
+    padding: 0px;
+ }
+
+/*Diseinua aldatu h2*/
+.barra h2{
+    text-align: center;
+    color: white;
+    padding: 7px;
+    padding-bottom: 7px;
+    font-size: 0px;
+} 
+
+/*3 barrako argazkia editatzen*/
+.barra img{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+/*barra kurtsorea gainetik pasatzean zabalduko da*/ 
+.barra:hover{
+    width: 20%;
+    height: 568px;
+    background-color: rgba(0, 0, 0, 0.98) 
+}
+
+/*hau da, h2 barran agertzeko diseinua*/
+.barra:hover h2{
+    padding: 15px;
+    font-size: 35px;
+}
+
+/*hau da, a barran agertzeko diseinua*/
+.barra:hover a{
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 30px;
+}
+
+/*hau da, irudia desager dadin*/
+.barra:hover img{
+    height: 0px;   
+}
+
+/*hau da, li barran agertzeko diseinua*/
+.barra:hover li{
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+/*Kurtsorea atalen gainetik pasatzean urdinez jartzeko balio du.*/
+.barra:hover a:hover{
+    font-size: 25px;
+    padding: 30px 0px; /*30 0 30 0*/
+    background-color: rgb(22, 78, 112, 0.98);
+}
+ /*Menu Desplegable finala*/
+/*Logoak editazen*/
+.W10Pro{
+    width: 350px;
+}
+.office365{
+    width: 370px;
+}
+/*logoak editatzen finala*/
+
+/*h4 margen bat jartzen*/
+#main-content h4{
+margin: 20px;
+}
+
+/*h2 colorea jartzen*/
+#main-content h2{
+    color: black;
+}
+/*DENDA AMAIERA*/
